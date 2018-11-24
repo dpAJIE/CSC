@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "571678039973",
+    "firebase_url": "https://cscfirebaseproject.firebaseio.com",
+    "project_id": "cscfirebaseproject",
+    "storage_bucket": "cscfirebaseproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571678039973:android:d4381f6f885da83d",
+        "android_client_info": {
+          "package_name": "com.dwipa.user.csc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571678039973-d2i1dotodvnlah9938k5c02kt2gscne3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dwipa.user.csc",
+            "certificate_hash": "ca03b62972954f9e5907b42643e09d5a7c388667"
+          }
+        },
+        {
+          "client_id": "571678039973-j1eosd5v7482ah9r1fglvg6gjiuhfr80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3vNlVS-nCGEtkrCp7AjOQLCdRiWLySO0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "571678039973-j1eosd5v7482ah9r1fglvg6gjiuhfr80.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

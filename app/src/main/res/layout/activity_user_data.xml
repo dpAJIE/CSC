@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.dwipa.user.csc.Auth.UserDataActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/whiteSmoke"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <android.support.v7.widget.CardView
+            app:cardBackgroundColor="#fff"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+                <EditText
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/border_text"
+                    android:id="@+id/user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:hint="Nama"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@color/colorAccent" />
+                <EditText
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/border_text"
+                    android:id="@+id/nama_ahass"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:hint="Nama AHASS"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@color/colorAccent" />
+                <EditText
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/border_text"
+                    android:id="@+id/nomor_ahass"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:hint="Nomor AHASS"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@color/colorAccent" />
+                <EditText
+                    android:layout_marginBottom="5dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:background="@drawable/border_text"
+                    android:id="@+id/birth_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:hint="Tanggal lahir"
+                    android:inputType="datetime"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@color/colorAccent" />
+                <Spinner
+                    android:background="@drawable/border_text"
+                    android:spinnerMode="dropdown"
+                    android:id="@+id/spinner"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+                </Spinner>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <Button
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/sign_up_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_blue"
+            android:text="daftar"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="Kembali ke halaman masuk..."
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone"/>
+
+</android.support.design.widget.CoordinatorLayout>

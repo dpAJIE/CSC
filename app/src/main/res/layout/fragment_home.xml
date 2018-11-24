@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteSmoke"
+    tools:context="com.dwipa.user.csc.Fragments.HomeFragment">
+
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:background="@color/whiteSmoke"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_centerInParent="true"
+            android:layout_above="@id/btn_daftar_sa"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_bengkel"
+            android:layout_width="300dp"
+            android:layout_height="300dp" />
+
+        <Button
+            android:layout_above="@+id/btn_daftar_mec"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/btn_daftar_sa"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_blue"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:text="Service Advisor"
+            android:textColor="@android:color/white" />
+        <Button
+            android:textSize="20sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/btn_daftar_mec"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_red"
+            android:textAllCaps="false"
+            android:text="Mechanic"
+            android:textColor="@android:color/white" />
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

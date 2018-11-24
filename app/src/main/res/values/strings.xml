@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CSC</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="minimum_password">Password terlalu pendek, ketik minimal 6 karakter!</string>
+    <string name="auth_failed">Autentikasi gagal, periksa kembali email dan password anda atau mendaftar</string>
+    <string name="serviceQueue">Yah..belum ada servisan..\nCoba diperiksa juga koneksi internetnya\nsiapa tau koneksinya putus</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
